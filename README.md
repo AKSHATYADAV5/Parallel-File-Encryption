@@ -30,20 +30,15 @@ The repository contains two primary branches, each focusing on a distinct parall
 
 ## Getting Started
 
-To explore the implementations in each branch:
+To build and try out the project:
 
    ```bash
    git clone <repo-url>
-   cd encrypty
-   git checkout <branch>
-   # Now make a virtual env and activate
-   python -m venv /myvenv
-   source myvenv/bin/activate
-   python makeDirs.py
+   cd Parallel-File-Encryption
+   git checkout <branch>  # optional: choose a branch to explore
    make
-   ./encrypty
-   # type directory name which is created from makeDirs.py
-   test
-   ENCRYPT # after giving directory name, give ENCRYPT or DECRYPT to tell what to do
+   ./encrypt_decrypt
+   # When prompted, enter the directory path (e.g. ./test)
+   # Then enter either 'encrypt' or 'decrypt'
    ```
 
